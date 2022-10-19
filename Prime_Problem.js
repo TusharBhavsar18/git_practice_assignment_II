@@ -4,15 +4,17 @@ let num = 13;
 
 let count = 0;
     
-    for(let l=0 ; i<=num ; i++){
+    for(let i=0 ; i<=num ; i++){
         
         if(num%i==0){
             
             count++;
         }
-    }if(count==1){
+    }
+    
+    if(count==2){
         
-        cosole.log("Yes");
+        cosole.log("YES");
     }else{
-        console.log("No");
+        console.log("NO");
     }
