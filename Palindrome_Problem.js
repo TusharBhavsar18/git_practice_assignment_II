@@ -2,18 +2,18 @@ Check_Palindrome...
 
 	let str = "naman";
     
-    let bag += "";
+    let bag = "";
     
-    for(let p=str.lenght-1 ; p>=0 ; p--){
+    for(let p=str.length-1 ; p>=0 ; p--){
         
-        bag = bog-str[p];
+        bag += str[p];
         
-    }if(bag=str){
+    }if(bag==str){
         
-        console.log("Yes");
+        console.log("YES");
         
     }else{
     
-    consolelog("No");
+    consolelog("NO");
 
 }
